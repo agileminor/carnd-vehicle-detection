@@ -6,7 +6,7 @@
 
 [//]: # (Image References)
 [car_example]: ./output_images/car_example.png
-[non_car_example]: ./output_images/notcar_example.jpg
+[non_car_example]: ./output_images/notcar_example.png
 [heat]: ./output_images/heat_map.png
 [labels]: ./output_images/labels_map.png
 [bbox]: ./output_images/single_frame.png
@@ -33,7 +33,7 @@ I tried using spatial features, colour features and HOG features, with various c
 Examples of HOG results on both car and non car image
 
 ![alt text][hog_car]
-![alt text][hog_non_car]
+![alt text][hog_notcar]
 
 With the parameters chosen, I loaded all data from the small dataset provided. The data set is skewed towards non car images (2321 non car vs 1196 car images). I experimented with limiting the number of non car images to make a balanced data set, but it did not have a large effect on the results of my classifier, so I ended up using all the images.
 
@@ -47,7 +47,7 @@ Below shows examples of a single frame with matching bboxes and an example after
 
 ![alt text][bbox]
 ![alt text][heat]
-![alt text][output]
+![alt text][labels]
 
 Here's a [link to my video result](./project_output.mp4)
 
