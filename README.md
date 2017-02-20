@@ -61,3 +61,5 @@ Like a lot of these projects, the major difficulty is not in building a function
 In addition, I would use info about the perspective used to trim down the search space, i.e. only looking for at larger windows near the car and smaller windows near the horizon.
 
 It would also be good to try out more data for the classified, based on the full GTI datasets, and possible adding a CNN feature set.
+
+Final note - the example code given in the Udacity lectures is used in parts of the project, where useful.
